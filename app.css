@@ -1,0 +1,57 @@
+.event-listing {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.event-item {
+    display: flex;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.event-date {
+    text-align: center;
+    margin-right: 20px;
+    flex: 0 0 100px;
+}
+
+.event-date .year {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.event-date .date {
+    font-size: 1.6em;
+    font-weight: bold;
+}
+
+.event-info {
+    flex: 1;
+}
+
+.event-info h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.event-info p {
+    margin-bottom: 8px;
+}
+
+.learn-more-btn {
+    display: inline-block;
+    background-color: #f0b400;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: white;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.learn-more-btn:hover {
+    background-color: #d69a00;
+}
